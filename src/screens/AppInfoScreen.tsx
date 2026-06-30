@@ -30,7 +30,7 @@ export function AppInfoScreen() {
         contentContainerStyle={styles.AIScrollContent}
         showsVerticalScrollIndicator={false}>
         <Text style={styles.AIDescFiligree}>
-          Debut Guest Resort is a guest information and planning app
+          Debut Resort Explorer is a guest information and planning app
           for digital opening access, opening event schedule, place reservation
           requests, after-opening events, dining menu orders, service requests,
           guest tips, submitted request review, and visit organization.

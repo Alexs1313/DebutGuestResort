@@ -8,7 +8,7 @@ export const DESIGN_HEIGHT = 852;
 export const colors = {
   // backgrounds
   background: '#07051A',
-  surface: '#12052E',
+  surface: 'rgba(1, 7, 62, 1)',
   surfaceDeep: '#05020F',
   surfaceDark: '#19083D',
   // cards

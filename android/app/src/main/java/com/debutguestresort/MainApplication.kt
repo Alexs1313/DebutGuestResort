@@ -1,4 +1,4 @@
-package com.debutguestresort
+package com.debutresort.explorer
 
 import android.app.Application
 import com.facebook.react.PackageList
