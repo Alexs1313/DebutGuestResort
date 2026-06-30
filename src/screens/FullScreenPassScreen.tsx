@@ -1,5 +1,12 @@
 import React from 'react';
-import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
+import {
+  Image,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
 import {APP_FULL_TITLE, PASS_CODE} from '../constants/brand';
 import {useAppNavigation} from '../navigation/NavigationContext';
@@ -10,31 +17,42 @@ export function FullScreenPassScreen() {
 
   return (
     <View style={styles.FSPassFacetChassis}>
-      <View style={styles.FSPassContent}>
-        <Image source={require('../assets/debut-guest-resort-app_icon.png')} />
-        <Text style={styles.FSPassAppNameFiligree}>{APP_FULL_TITLE}</Text>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{
+          flexGrow: 1,
+          paddingHorizontal: 32,
+          paddingVertical: 60,
+        }}>
+        <View style={styles.FSPassContent}>
+          <Image
+            source={require('../assets/debut-guest-resort-app_icon.png')}
+            style={{width: 100, height: 100, borderRadius: 20}}
+          />
+          <Text style={styles.FSPassAppNameFiligree}>{APP_FULL_TITLE}</Text>
 
-        <View style={styles.FSPassCodeCard}>
-          <Text style={styles.FSPassCodeLabelFiligree}>
-            OPENING ACCESS CODE
+          <View style={styles.FSPassCodeCard}>
+            <Text style={styles.FSPassCodeLabelFiligree}>
+              OPENING ACCESS CODE
+            </Text>
+            <Text style={styles.FSPassCodeFiligree}>{PASS_CODE}</Text>
+            <View style={styles.FSPassGlowLine} />
+          </View>
+
+          <Text style={styles.FSPassHintFiligree}>
+            Present this code to venue staff when requested.
           </Text>
-          <Text style={styles.FSPassCodeFiligree}>{PASS_CODE}</Text>
-          <View style={styles.FSPassGlowLine} />
         </View>
 
-        <Text style={styles.FSPassHintFiligree}>
-          Present this code to venue staff when requested.
-        </Text>
-      </View>
-
-      <Pressable
-        onPress={closeOverlay}
-        style={({pressed}) => [
-          styles.FSPassClosePortico,
-          pressed && {opacity: 0.7},
-        ]}>
-        <Text style={styles.FSPassCloseFiligree}>Close</Text>
-      </Pressable>
+        <Pressable
+          onPress={closeOverlay}
+          style={({pressed}) => [
+            styles.FSPassClosePortico,
+            pressed && {opacity: 0.7},
+          ]}>
+          <Text style={styles.FSPassCloseFiligree}>Close</Text>
+        </Pressable>
+      </ScrollView>
     </View>
   );
 }
@@ -45,8 +63,6 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
     flex: 1,
     justifyContent: 'center',
-    paddingHorizontal: 32,
-    paddingVertical: 60,
   },
   FSPassContent: {
     alignItems: 'center',
@@ -113,6 +129,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     paddingHorizontal: 48,
     paddingVertical: 14,
+    marginTop: 20,
   },
 
   FSPassCloseFiligree: {

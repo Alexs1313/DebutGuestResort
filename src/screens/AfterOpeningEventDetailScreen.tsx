@@ -26,7 +26,9 @@ export function AfterOpeningEventDetailScreen({eventId}: Props) {
 
   return (
     <View style={styles.AEDFacetChassis}>
+
       <SubScreenHeader title={event.title} onBack={goBack} />
+
       <ScrollView
         contentContainerStyle={styles.AEDScrollContent}
         showsVerticalScrollIndicator={false}>

@@ -59,7 +59,9 @@ export function ServiceRequestFormScreen({serviceId}: Props) {
 
   return (
     <View style={styles.SRFacetChassis}>
+
       <SubScreenHeader title="Service Request" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.SRScrollContent} showsVerticalScrollIndicator={false}>
         {/* Selected service card */}
         {service && (

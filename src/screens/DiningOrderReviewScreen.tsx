@@ -58,7 +58,9 @@ export function DiningOrderReviewScreen() {
 
   return (
     <View style={styles.DORFacetChassis}>
+
       <SubScreenHeader title="Review Dining Order" onBack={goBack} />
+
       <ScrollView
         contentContainerStyle={styles.DORScrollContent}
         showsVerticalScrollIndicator={false}>

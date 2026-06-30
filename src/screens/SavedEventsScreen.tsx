@@ -16,7 +16,9 @@ export function SavedEventsScreen() {
 
   return (
     <View style={styles.SEFacetChassis}>
+
       <SubScreenHeader title="Saved Events" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.SEScrollContent} showsVerticalScrollIndicator={false}>
         {savedEvents.length === 0 ? (
           <View style={styles.SEEmptyLintel}>

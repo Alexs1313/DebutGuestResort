@@ -23,7 +23,9 @@ export function QAHelpScreen() {
 
   return (
     <View style={styles.QAFacetChassis}>
+
       <SubScreenHeader title="Q&A Help" onBack={goBack} />
+
       <ScrollView
         contentContainerStyle={styles.QAScrollContent}
         showsVerticalScrollIndicator={false}>

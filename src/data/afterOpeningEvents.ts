@@ -41,7 +41,7 @@ export const AFTER_EVENT_TYPE_STYLES: Record<AfterEventType, {background: string
 export const AFTER_OPENING_EVENTS: AfterOpeningEvent[] = [
   {
     id: 'lounge-jazz-night',
-    title: 'Win Spirit Lounge Jazz Night',
+    title: 'Lounge Jazz Night',
     room: 'Main Lounge Stage',
     day: 'Fri',
     time: '8:00 PM',
@@ -171,7 +171,7 @@ export const AFTER_OPENING_EVENTS: AfterOpeningEvent[] = [
   },
   {
     id: 'win-spirit-welcome-route',
-    title: 'Win Spirit Welcome Path',
+    title: 'Welcome Path',
     room: 'Main Entrance Lobby',
     day: 'Wed',
     time: '5:30 PM',

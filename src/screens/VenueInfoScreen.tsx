@@ -10,7 +10,7 @@ const INFO_CARDS = [
   {icon: '🪪', title: 'Opening Access', text: 'Use your pass code when access or verification is requested.'},
   {icon: '🎪', title: 'Opening Plan', text: 'View the main opening-night moments and reserve a place for selected activities.'},
   {icon: '📅', title: 'After Opening Events', text: 'Browse upcoming events after the official opening and save the ones you want to visit.'},
-  {icon: '🍽️', title: 'Dining', text: 'Choose dining items and prepare your Win Spirit venue order.'},
+  {icon: '🍽️', title: 'Dining', text: 'Choose dining items and prepare your venue order.'},
   {icon: '🛎️', title: 'Services', text: 'Send service requests for parking, lounge seating, dining table support, arrival help, venue guidance, and guest care.'},
 ];
 
@@ -19,7 +19,9 @@ export function VenueInfoScreen() {
 
   return (
     <View style={styles.VIFacetChassis}>
+
       <SubScreenHeader title="Venue Info" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.VIScrollContent} showsVerticalScrollIndicator={false}>
         <Text style={styles.VIIntroFiligree}>
           {APP_FULL_TITLE} helps guests organize access, opening event moments, after-opening events, dining requests, guest services, and useful venue information during their visit.

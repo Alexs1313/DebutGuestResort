@@ -23,7 +23,7 @@ export function OpeningPlanScreen() {
           <Text style={styles.OpeningBrandFiligree}>OPENING NIGHT</Text>
           <Text style={styles.OpeningTitleFiligree}>Opening Plan</Text>
           <Text style={styles.OpeningSubtitleFiligree}>
-            See what to expect during the Win Spirit opening event.
+            See what to expect during the opening event.
           </Text>
         </View>
 

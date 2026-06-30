@@ -9,7 +9,11 @@ type SubScreenHeaderProps = {
   rightAction?: React.ReactNode;
 };
 
-export function SubScreenHeader({title, onBack, rightAction}: SubScreenHeaderProps) {
+export function SubScreenHeader({
+  title,
+  onBack,
+  rightAction,
+}: SubScreenHeaderProps) {
   return (
     <View style={styles.SubScreenHeaderFacetChassis}>
       <Pressable onPress={onBack} style={styles.SubScreenHeaderBackPortico}>
@@ -32,7 +36,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     flexDirection: 'row',
     gap: 12,
-    paddingHorizontal: layout.screenPadding,
     paddingVertical: 14,
     paddingTop: 56,
   },

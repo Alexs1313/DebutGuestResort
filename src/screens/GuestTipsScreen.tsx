@@ -11,12 +11,14 @@ export function GuestTipsScreen() {
 
   return (
     <View style={styles.GTFacetChassis}>
+
       <SubScreenHeader title="Guest Tips" onBack={goBack} />
+
       <ScrollView
         contentContainerStyle={styles.GTScrollContent}
         showsVerticalScrollIndicator={false}>
         <Text style={styles.GTSubtitleFiligree}>
-          Useful tips for a smoother Win Spirit opening visit.
+          Useful tips for a smoother opening visit.
         </Text>
         {GUEST_TIPS.map(tip => (
           <View key={tip.id} style={styles.GTTipCard}>

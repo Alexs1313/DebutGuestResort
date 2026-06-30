@@ -19,7 +19,9 @@ export function OpeningEventDetailScreen({eventId}: Props) {
 
   return (
     <View style={styles.OEDFacetChassis}>
+
       <SubScreenHeader title={event.title} onBack={goBack} />
+
       <ScrollView
         contentContainerStyle={styles.OEDScrollContent}
         showsVerticalScrollIndicator={false}>

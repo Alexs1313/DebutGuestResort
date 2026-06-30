@@ -57,7 +57,9 @@ export function ReserveEventSeatScreen({eventId}: Props) {
 
   return (
     <View style={styles.RSFacetChassis}>
+
       <SubScreenHeader title="Reserve Place" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.RSScrollContent} showsVerticalScrollIndicator={false}>
         {/* Selected event card */}
         {event && typeStyle && (

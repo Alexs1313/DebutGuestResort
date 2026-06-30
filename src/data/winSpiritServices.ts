@@ -69,7 +69,7 @@ export const WIN_SPIRIT_SERVICES: WinSpiritService[] = [
     icon: '📸',
     title: 'Photo Zone Assistance',
     tag: 'Opening Moment',
-    description: 'Ask for guidance around the Win Spirit photo wall, timing, or guest photo zone.',
+    description: 'Ask for guidance around the photo wall, timing, or guest photo zone.',
   },
   {
     id: 'guest-route-guidance',

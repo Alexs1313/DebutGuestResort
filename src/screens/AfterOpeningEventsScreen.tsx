@@ -89,7 +89,7 @@ export function AfterOpeningEventsScreen() {
             <Text style={styles.AEBrandFiligree}>AFTER OPENING</Text>
             <Text style={styles.AETitleFiligree}>After Opening Events</Text>
             <Text style={styles.AESubtitleFiligree}>
-              Explore upcoming Win Spirit events after the opening celebration.
+              Explore upcoming events after the opening celebration.
             </Text>
           </View>
           <Pressable onPress={openSavedEvents} style={styles.AESavedPortico}>

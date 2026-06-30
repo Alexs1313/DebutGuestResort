@@ -46,7 +46,9 @@ export function ServiceRequestReviewScreen({serviceId}: Props) {
 
   return (
     <View style={styles.SRRVFacetChassis}>
+
       <SubScreenHeader title="Review Service Request" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.SRRVScrollContent} showsVerticalScrollIndicator={false}>
         <Text style={styles.SRRVSubtitleFiligree}>Check your details before sending the request for review.</Text>
 

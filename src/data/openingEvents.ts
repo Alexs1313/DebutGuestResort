@@ -48,12 +48,12 @@ export const OPENING_EVENTS: OpeningEvent[] = [
   },
   {
     id: 'win-spirit-light-ceremony',
-    title: 'Win Spirit Light Ceremony',
+    title: 'Light Ceremony',
     location: 'Central Atrium',
     time: '7:30 PM',
     type: 'Opening Ceremony',
     description:
-      'The symbolic opening moment with light effects, host greeting, and the first official Win Spirit welcome.',
+      'The symbolic opening moment with light effects, host greeting, and the first official welcome.',
     expectedGuestCount: 'Limited reserved seating',
     dressMood: 'Formal Evening',
     reservationAvailable: true,
@@ -100,7 +100,7 @@ export const OPENING_EVENTS: OpeningEvent[] = [
   },
   {
     id: 'win-spirit-photo-moment',
-    title: 'Win Spirit Photo Moment',
+    title: 'Photo Moment',
     location: 'Opening Photo Wall',
     time: '6:30 PM – 10:30 PM',
     type: 'Photo Zone',

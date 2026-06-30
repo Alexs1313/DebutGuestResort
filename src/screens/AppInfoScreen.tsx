@@ -23,12 +23,14 @@ export function AppInfoScreen() {
 
   return (
     <View style={styles.AIFacetChassis}>
+
       <SubScreenHeader title="App Info" onBack={goBack} />
+
       <ScrollView
         contentContainerStyle={styles.AIScrollContent}
         showsVerticalScrollIndicator={false}>
         <Text style={styles.AIDescFiligree}>
-          Debut Win Spirit Resort Casino is a guest information and planning app
+          Debut Guest Resort is a guest information and planning app
           for digital opening access, opening event schedule, place reservation
           requests, after-opening events, dining menu orders, service requests,
           guest tips, submitted request review, and visit organization.

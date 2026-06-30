@@ -38,7 +38,7 @@ export const MENU_CATEGORY_STYLES: Record<
 export const OPENING_MENU: MenuItem[] = [
   {
     id: 'win-spirit-welcome-plate',
-    title: 'Win Spirit Welcome Plate',
+    title: 'Welcome Plate',
     category: 'Opening Specials',
     price: 22,
     featured: true,

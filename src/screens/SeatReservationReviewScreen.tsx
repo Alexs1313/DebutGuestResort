@@ -39,7 +39,9 @@ export function SeatReservationReviewScreen({eventId}: Props) {
 
   return (
     <View style={styles.SRRFacetChassis}>
+
       <SubScreenHeader title="Review Reservation" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.SRRScrollContent} showsVerticalScrollIndicator={false}>
         <Text style={styles.SRRSubtitleFiligree}>Check your details before sending the request.</Text>
         <View style={styles.SRRSummaryCard}>

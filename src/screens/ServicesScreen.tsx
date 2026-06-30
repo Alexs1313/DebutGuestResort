@@ -9,7 +9,7 @@ import {colors, fonts, layout, radius} from '../constants/theme';
 const HUB_CARDS = [
   {id: 'qa', icon: '❓', title: 'Q&A Help', desc: 'Find quick answers for access, services, reservations, events, dining orders, and submitted requests.'},
   {id: 'saved', icon: '🔖', title: 'Saved Events', desc: 'View events you saved from the After Opening Events screen.'},
-  {id: 'tips', icon: '💡', title: 'Guest Tips', desc: 'Read useful tips for a smoother Win Spirit opening visit.'},
+  {id: 'tips', icon: '💡', title: 'Guest Tips', desc: 'Read useful tips for a smoother opening visit.'},
   {id: 'venue', icon: '🏨', title: 'Venue Info', desc: 'View a simple overview of the opening venue tools inside the app.'},
   {id: 'app', icon: 'ℹ️', title: 'App Info', desc: 'Learn what this opening guest app is designed to help with.'},
 ] as const;
@@ -35,7 +35,7 @@ export function ServicesScreen() {
         <View style={styles.SvcSummaryCard}>
           <Text style={styles.SvcSummaryTitleFiligree}>Welcome Events & Service</Text>
           <Text style={styles.SvcSummaryBodyFiligree}>
-            Choose a service, send a request, and let the Win Spirit venue team review your details.
+            Choose a service, send a request, and let the venue team review your details.
           </Text>
           <PrimaryButton label="View Submitted Requests" onPress={() => openSubmittedRequests()} fullWidth icon="📋" />
         </View>

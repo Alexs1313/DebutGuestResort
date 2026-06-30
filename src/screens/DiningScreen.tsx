@@ -53,7 +53,7 @@ export function DiningScreen() {
           <Text style={styles.DiningBrandFiligree}>OPENING DINING</Text>
           <Text style={styles.DiningTitleFiligree}>Dining</Text>
           <Text style={styles.DiningSubtitleFiligree}>
-            Choose dining items and prepare your Win Spirit opening order.
+            Choose dining items and prepare your opening order.
           </Text>
         </View>
 

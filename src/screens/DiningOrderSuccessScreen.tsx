@@ -14,7 +14,7 @@ export function DiningOrderSuccessScreen() {
         <Text style={styles.DOSIconSigil}>✅</Text>
         <Text style={styles.DOSTitleFiligree}>Dining order sent</Text>
         <Text style={styles.DOSBodyFiligree}>
-          Your dining request has been prepared for the Win Spirit venue team.
+          Your dining request has been prepared for the venue team.
         </Text>
         <View style={styles.DOSStatusLintel}>
           <View style={styles.DOSStatusDot} />

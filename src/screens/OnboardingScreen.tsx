@@ -18,7 +18,7 @@ const STEPS = [
     bg: onboardingBackgrounds.step1,
     title: 'Your Opening Pass',
     subtitle:
-      'Keep your digital pass ready and unlock helpful guest tools for the Win Spirit opening event.',
+      'Keep your digital pass ready and unlock helpful guest tools for the opening event.',
   },
   {
     bg: onboardingBackgrounds.step3,

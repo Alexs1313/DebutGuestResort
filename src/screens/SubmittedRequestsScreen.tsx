@@ -31,7 +31,9 @@ export function SubmittedRequestsScreen({initialFilter}: Props) {
 
   return (
     <View style={styles.SubFacetChassis}>
+
       <SubScreenHeader title="Submitted Requests" onBack={goBack} />
+
       <ScrollView contentContainerStyle={styles.SubScrollContent} showsVerticalScrollIndicator={false}>
         <Text style={styles.SubSubtitleFiligree}>Review your service requests, event bookings, and dining orders sent for venue review.</Text>
 
@@ -132,7 +134,7 @@ export function SubmittedRequestsScreen({initialFilter}: Props) {
                 {orders.length === 0 ? (
                   <View style={styles.SubEmptyCard}>
                     <Text style={styles.SubEmptyCardTitleFiligree}>No dining orders yet</Text>
-                    <Text style={styles.SubEmptyCardBodyFiligree}>Choose items from the menu and prepare your first Win Spirit dining order.</Text>
+                    <Text style={styles.SubEmptyCardBodyFiligree}>Choose items from the menu and prepare your first dining order.</Text>
                     <PrimaryButton label="Open Dining Menu" onPress={() => selectTab('DiningTab')} compact />
                   </View>
                 ) : (

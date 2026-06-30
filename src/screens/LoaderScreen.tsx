@@ -75,9 +75,7 @@ export function LoaderScreen({
           />
 
           <Text style={styles.LoaderTitleFiligree}>{APP_FULL_TITLE}</Text>
-          <Text style={styles.LoaderStatusFiligree}>
-            Preparing your Win Spirit access…
-          </Text>
+
           <View style={styles.LoaderProgressTrack}>
             <Animated.View
               style={[styles.LoaderProgressFill, {width: fillWidth}]}
@@ -110,6 +108,9 @@ const styles = StyleSheet.create({
   },
   LoaderLogoSigil: {
     marginBottom: 24,
+    width: 220,
+    height: 220,
+    borderRadius: 50,
   },
   LoaderBrandFiligree: {
     color: colors.neonPink,
